@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import "common";
+@import "variables";
+@import "mixins";
+@import "fonts";
+
+.home-wrapper {
+    color: red;
+    width: 100%;
+    border: 1px solid red;
+
+    .title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 58.8815px;
+        line-height: 122%;
+        /* or 72px */
+
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+
+        /* Primary */
+
+        color: #2C5B90;
+
+    }
+}

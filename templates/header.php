@@ -1,63 +1,127 @@
 <header class="main-header">
-  <div class="container-fluid">
-    <div class="row g-0 justify-content-between align-items-center">
-      <div class="col-auto col-logo">
-        <!-- LOGO -->
-        <a href="index.html" class="logo">
-          <img src="images/logo.svg" alt="Bitu" class=" d-none d-lg-block">
-          <img src="images/logo_sp.svg" alt="Bitu" class=" d-block d-lg-none">
-        </a>
-        <!-- LOGO -->
+    <div class="container">
+        <div class="row g-0 d-flex justify-content-between align-items-center">
+            <div class="main-header-menu__wrapper">
+                <div class="col-auto col-logo logo-wrapper">
+                    <!-- LOGO -->
+                    <a href="index.html" class="logo">
+                        <img src="images/logo-header.png" alt="" class="d-none d-lg-block logo-header">
+                        <img src="images/logo-header.png" alt="" class=" d-block d-lg-none logo-header">
+                    </a>
+                    <!-- LOGO -->
+                </div>
+                <ul class="main-header-menu">
+                    <li class="active">
+                        <a href="#">Product</a>
+                    </li>
+                    <li>
+                        <a href="#">Tech</a>
+                    </li>
+                    <li>
+                        <a href="#">Story</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
 
-      </div>
+                </ul>
+            </div>
+            <div class="col-auto col-nav">
+                <ul class="d-none d-lg-flex list--header-contact__wrapper">
+                    <li>
+                        <a href="#" class="icon-header">
+                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_17_21650)">
+                                    <path
+                                        d="M18.3164 17.5L13.3164 12.5M14.9831 8.33333C14.9831 9.09938 14.8322 9.85792 14.539 10.5657C14.2459 11.2734 13.8162 11.9164 13.2745 12.4581C12.7329 12.9998 12.0898 13.4295 11.3821 13.7226C10.6743 14.0158 9.91578 14.1667 9.14974 14.1667C8.3837 14.1667 7.62515 14.0158 6.91742 13.7226C6.20969 13.4295 5.56662 12.9998 5.02495 12.4581C4.48327 11.9164 4.05359 11.2734 3.76044 10.5657C3.46729 9.85792 3.31641 9.09938 3.31641 8.33333C3.31641 6.78624 3.93099 5.30251 5.02495 4.20854C6.11891 3.11458 7.60264 2.5 9.14974 2.5C10.6968 2.5 12.1806 3.11458 13.2745 4.20854C14.3685 5.30251 14.9831 6.78624 14.9831 8.33333Z"
+                                        stroke="#2C5B90" stroke-width="1.66667" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_17_21650">
+                                        <rect width="20" height="20" fill="white" transform="translate(0.816406)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
 
-      <div class="col-auto col-nav">
-        <ul class="d-none d-lg-block">
-          <li>
-            <a href="#">item1</a>
-          </li>
-          <li>
-            <a href="#">item2</a>
-          </li>
-          <li>
-            <a href="#">item3</a>
-          </li>
-          <li>
-            <a href="#">item4</a>
-          </li>
-        </ul>
-        <button class="btn border-0 d-block d-lg-none btn-menu" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.42871 4.42871H18.5716M1.42871 10.143H18.5716M1.42871 15.8573H18.5716" stroke="#1A202C"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </button>
-      </div>
+                    <li>
+                        <a href="#" class="icon-header">
+                            <svg width="23" height="18" viewBox="0 0 23 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.38134 17.3772C10.2899 17.3772 11.9745 17.02 13.4352 16.3056C14.896 15.5913 16.1248 14.6716 17.1217 13.5468C18.1186 12.4219 18.873 11.1611 19.3848 9.76435C19.8965 8.36759 20.1524 6.98685 20.1524 5.62208C20.1524 5.52611 20.1524 5.43282 20.1524 5.34219C20.1524 5.25156 20.1471 5.1636 20.1364 5.0783C20.5416 4.77976 20.9148 4.45456 21.256 4.10271C21.5972 3.75085 21.9064 3.37235 22.1836 2.96718C21.8424 3.11645 21.4772 3.2444 21.088 3.35102C20.6989 3.45764 20.291 3.53761 19.8646 3.59092C20.2697 3.33503 20.6269 3.0125 20.9361 2.62332C21.2453 2.23415 21.4799 1.805 21.6398 1.33586C21.2666 1.54911 20.8615 1.73836 20.4243 1.90362C19.9872 2.06889 19.534 2.1995 19.0649 2.29546C18.6597 1.90096 18.1959 1.58642 17.6735 1.35185C17.151 1.11728 16.5966 1 16.0102 1C15.4344 1 14.896 1.11195 14.3948 1.33586C13.8937 1.54911 13.4566 1.84231 13.0834 2.21549C12.7102 2.58867 12.4117 3.02582 12.1878 3.52695C11.9745 4.02807 11.8679 4.56651 11.8679 5.14227C11.8679 5.31287 11.8759 5.47813 11.8919 5.63807C11.9079 5.798 11.9372 5.9526 11.9798 6.10187C11.1162 6.04856 10.2846 5.90996 9.48488 5.68605C8.67455 5.46214 7.90954 5.1636 7.18984 4.79042C6.47013 4.41724 5.79576 3.98009 5.16668 3.47897C4.53761 2.96718 3.97251 2.40209 3.47139 1.78367C3.27947 2.07156 3.13553 2.39142 3.03957 2.74327C2.94361 3.09513 2.89563 3.45764 2.89563 3.83082C2.89563 4.54519 3.06089 5.20358 3.39142 5.806C3.72195 6.40842 4.16443 6.89621 4.71887 7.26939C4.37768 7.25873 4.04981 7.20808 3.73528 7.11745C3.42074 7.02682 3.12487 6.90154 2.84765 6.74161C2.85831 6.76293 2.86364 6.77893 2.86364 6.78959C2.86364 6.80025 2.86364 6.80558 2.86364 6.80558C2.86364 7.30671 2.94894 7.78117 3.11953 8.22899C3.27947 8.6768 3.50604 9.0793 3.79925 9.43649C4.09246 9.79367 4.44165 10.0949 4.84681 10.3401C5.24132 10.5853 5.67313 10.7613 6.14227 10.8679C5.993 10.9105 5.82774 10.9452 5.64648 10.9718C5.46522 10.9985 5.27864 11.0118 5.08671 11.0118C4.9481 11.0118 4.81216 11.0038 4.67888 10.9878C4.54561 10.9718 4.41499 10.9532 4.28705 10.9319C4.42566 11.3477 4.62291 11.7315 4.8788 12.0834C5.1347 12.4246 5.43057 12.7231 5.76643 12.979C6.10229 13.2349 6.4728 13.4322 6.87797 13.5708C7.28313 13.72 7.71495 13.8 8.17343 13.8107C7.82157 14.0879 7.4484 14.3331 7.05389 14.5464C6.65939 14.7703 6.24623 14.9569 5.81441 15.1061C5.38259 15.2554 4.93745 15.3727 4.47897 15.458C4.00983 15.5326 3.53536 15.5699 3.05556 15.5699C3.0449 15.5699 3.03957 15.5699 3.03957 15.5699C3.03957 15.5699 3.0369 15.5699 3.03157 15.5699C3.02624 15.5699 3.02357 15.5699 3.02357 15.5699C2.85298 15.5699 2.68238 15.5646 2.51179 15.5539C2.34119 15.5433 2.1706 15.5273 2 15.506C2.45848 15.8045 2.93827 16.0657 3.4394 16.2896C3.94053 16.5242 4.45764 16.7214 4.99075 16.8814C5.52387 17.0413 6.07297 17.1639 6.63807 17.2492C7.20317 17.3345 7.78425 17.3772 8.38134 17.3772Z"
+                                    fill="#2C5B90" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="icon-header">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_17_21657)">
+                                    <path
+                                        d="M4.65047 16.75H1.38516V6.23477H4.65047V16.75ZM3.01605 4.80039C1.97191 4.80039 1.125 3.93555 1.125 2.89141C1.125 2.38987 1.32424 1.90887 1.67888 1.55423C2.03352 1.19959 2.51452 1.00035 3.01605 1.00035C3.51759 1.00035 3.99859 1.19959 4.35323 1.55423C4.70787 1.90887 4.90711 2.38987 4.90711 2.89141C4.90711 3.93555 4.05984 4.80039 3.01605 4.80039ZM16.8715 16.75H13.6132V11.6312C13.6132 10.4113 13.5886 8.84687 11.9155 8.84687C10.2178 8.84687 9.95766 10.1723 9.95766 11.5434V16.75H6.69586V6.23477H9.82758V7.66914H9.87328C10.3092 6.84297 11.3741 5.97109 12.9628 5.97109C16.2675 5.97109 16.875 8.14726 16.875 10.9738V16.75H16.8715Z"
+                                        fill="#2C5B90" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_17_21657">
+                                        <rect width="18" height="18" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="icon-header">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.00347 3.95703C5.76753 3.95703 3.96401 5.76055 3.96401 7.99649C3.96401 10.2324 5.76753 12.0359 8.00347 12.0359C10.2394 12.0359 12.0429 10.2324 12.0429 7.99649C12.0429 5.76055 10.2394 3.95703 8.00347 3.95703ZM8.00347 10.6227C6.55855 10.6227 5.37729 9.44493 5.37729 7.99649C5.37729 6.54805 6.55503 5.37032 8.00347 5.37032C9.4519 5.37032 10.6296 6.54805 10.6296 7.99649C10.6296 9.44493 9.44839 10.6227 8.00347 10.6227ZM13.1503 3.7918C13.1503 4.31563 12.7285 4.73399 12.2082 4.73399C11.6843 4.73399 11.266 4.31211 11.266 3.7918C11.266 3.27149 11.6878 2.84961 12.2082 2.84961C12.7285 2.84961 13.1503 3.27149 13.1503 3.7918ZM15.8257 4.74805C15.766 3.48594 15.4777 2.36797 14.5531 1.44688C13.632 0.525784 12.514 0.237503 11.2519 0.174222C9.95112 0.100394 6.0523 0.100394 4.75151 0.174222C3.49292 0.233987 2.37495 0.522269 1.45034 1.44336C0.525733 2.36446 0.240967 3.48242 0.177686 4.74453C0.103857 6.04532 0.103857 9.94414 0.177686 11.2449C0.237451 12.507 0.525733 13.625 1.45034 14.5461C2.37495 15.4672 3.4894 15.7555 4.75151 15.8188C6.0523 15.8926 9.95112 15.8926 11.2519 15.8188C12.514 15.759 13.632 15.4707 14.5531 14.5461C15.4742 13.625 15.7625 12.507 15.8257 11.2449C15.8996 9.94414 15.8996 6.04883 15.8257 4.74805ZM14.1453 12.6406C13.871 13.3297 13.3402 13.8605 12.6476 14.1383C11.6105 14.5496 9.14956 14.4547 8.00347 14.4547C6.85737 14.4547 4.39292 14.5461 3.35933 14.1383C2.67026 13.8641 2.1394 13.3332 1.86167 12.6406C1.45034 11.6035 1.54526 9.14258 1.54526 7.99649C1.54526 6.85039 1.45386 4.38594 1.86167 3.35235C2.13589 2.66328 2.66675 2.13242 3.35933 1.85469C4.39644 1.44336 6.85737 1.53828 8.00347 1.53828C9.14956 1.53828 11.614 1.44688 12.6476 1.85469C13.3367 2.12891 13.8675 2.65977 14.1453 3.35235C14.5566 4.38946 14.4617 6.85039 14.4617 7.99649C14.4617 9.14258 14.5566 11.607 14.1453 12.6406Z"
+                                    fill="#2C5B90" />
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+                <button class="btn border-0 d-block d-lg-none btn-menu" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" onClick="handleTest">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.42871 4.42871H18.5716M1.42871 10.143H18.5716M1.42871 15.8573H18.5716"
+                            stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
     </div>
-  </div>
 </header>
 <!-- /END .main-header -->
 
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title">
-      <a href="index.html" class="logo"><img src="images/logo_sp.svg" alt="Bitu"></a>
-    </h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">
+            <a href="#" class="logo">
+                <img src="images/logo-header.png" alt="" class="logo-header">
+            </a>
+        </h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
 
-  <div class="offcanvas-body">
-    <ul class="main-nav">
-      <li><a href="index.html" class="active">Trang chủ</a></li>
-      <li><a href="about-us.html">Về chúng tôi</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="page-pricing.html">Pricing</a></li>
-      <li><a href="page-roadmap.html">Roadmap</a></li>
-      <li><a href="faq.html">FAQs</a></li>
-      <li><a href="page-recruitment.html">Tuyển dụng</a></li>
-      <li><a href="contact.html">Liên hệ</a></li>
-    </ul>
-  </div>
+    <div class="offcanvas-body">
+        <ul class="main-nav">
+            <li><a href="index.html" class="active">Trang chủ 111</a></li>
+            <li><a href="about-us.html">Về chúng tôi</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="page-pricing.html">Pricing</a></li>
+            <li><a href="page-roadmap.html">Roadmap</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="page-recruitment.html">Tuyển dụng</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+        </ul>
+    </div>
 </div>
 <!-- /END .offcanvas -->
