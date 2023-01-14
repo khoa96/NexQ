@@ -49,10 +49,8 @@
                             </svg>
                         </a>
                     </li>
-
                     <li>
                         <a href="#">
-
                             <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_26_5498)">
@@ -66,7 +64,6 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-
                         </a>
                     </li>
                 </ul>

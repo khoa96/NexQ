@@ -54,6 +54,12 @@ button,
 /* -----------------------------------------------------------
 	.main-header
 ----------------------------------------------------------- */
+.logo-header {
+  max-width: 104px;
+  max-height: 24px;
+  object-fit: cover;
+}
+
 .fixed-header .main-header {
   position: fixed;
   top: 0;
@@ -68,11 +74,6 @@ button,
   transition: all 0.4s ease;
   z-index: 1000;
   padding: 28px 0px;
-}
-.main-header .logo-header {
-  max-width: 104px;
-  max-height: 24px;
-  object-fit: cover;
 }
 @media only screen and (max-width: 1199px) {
   .main-header {
@@ -252,6 +253,53 @@ button,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main-header-menu-mb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-header-menu-mb .active a {
+  color: #2C5B90;
+}
+.main-header-menu-mb li {
+  padding: 12px 0px;
+}
+.main-header-menu-mb li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  color: #667085;
+}
+
+.offcanvas-body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-contact-mb {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  padding: 60px 0px;
+  align-items: center;
+}
+.list-contact-mb li {
+  margin-right: 20px;
+}
+.list-contact-mb li:last-of-type {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=header.css.map */
