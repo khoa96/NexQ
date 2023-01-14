@@ -1,5 +1,5 @@
 <header class="main-header">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row g-0 d-flex justify-content-between align-items-center">
             <div class="main-header-menu__wrapper">
                 <div class="col-auto col-logo logo-wrapper">
