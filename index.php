@@ -7,8 +7,11 @@
             <div class="container">
                 <div class="top-banner">
                     <div class="content-banner">
-                        <h1 class="title-banner">Data-driven infection control</h1>
-                        <p class="description-banner">
+                        <h1 class="title-banner" data-aos="fade-right" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">Data-driven
+                            infection control</h1>
+                        <p class="description-banner" data-aos="fade-right" data-aos-easing="ease-in-out"
+                            data-aos-delay="1000" data-aos-duration="1000">
                             At NEX.Q, develop and deliver AI-based solutions to control outbreaks of hospital infections
                             and antimicrobial resistance across healthcare facilities.
                         </p>
@@ -39,7 +42,8 @@
         <div class="problem-block__wrapper">
             <div class="container">
                 <div class="problem-block__content">
-                    <div class="problem-block__header">
+                    <div class="problem-block__header" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="500">
                         <span class="label">Problem</span>
                         <h1 class="title">Stopping hospital infections
                             before they HAPPEN!</h1>
@@ -49,7 +53,8 @@
                     </div>
 
                     <div class="problem-block__list">
-                        <div class="problem-item">
+                        <div class="problem-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">
                             <span class="icon">
                                 <svg width="88" height="90" viewBox="0 0 88 90" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +75,8 @@
                                 </span>hospital patients will <span class="text-highlight">have a disease acquired
                                 </span>from the hospital.</p>
                         </div>
-                        <div class="problem-item">
+                        <div class="problem-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">
                             <span class="icon">
 
                                 <svg width="96" height="81" viewBox="0 0 96 81" fill="none"
@@ -92,7 +98,8 @@
                             <p class="problem-description">Up to <span class="text-highlight">1 in every 3</span> of
                                 these are resistant to <span class="text-highlight">antibiotics.</span></p>
                         </div>
-                        <div class="problem-item">
+                        <div class="problem-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">
                             <span class="icon">
                                 <svg width="88" height="98" viewBox="0 0 88 98" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -113,7 +120,8 @@
                             <p class="problem-description">These resistant infections cost the NHS alone <span
                                     class="text-highlight">>£150 billion.</span></p>
                         </div>
-                        <div class="problem-item">
+                        <div class="problem-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">
                             <span class="icon">
                                 <svg width="89" height="96" viewBox="0 0 89 96" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -180,14 +188,16 @@
         <div class="technology-block__wrapper">
             <div class="container">
                 <div class="technology-block__content">
-                    <div class="technology-block__header">
+                    <div class="technology-block__header" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
                         <h2 class="title">Technology</h2>
                         <p class="description">
                             We develop cutting-edge scienfetic and medical innovations to deliver solutions to infection
                             prevention and control
                         </p>
                     </div>
-                    <div class="technology-block__list">
+                    <div class="technology-block__list" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
                         <div class="technology-item">
                             <span class="icon">
                                 <svg width="235" height="190" viewBox="0 0 235 190" fill="none"
@@ -330,7 +340,8 @@
         <div class="product-block__wrapper">
             <div class="container">
                 <div class="product-block__content">
-                    <div class="product-block__header">
+                    <div class="product-block__header" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
                         <h3 class="title">Product</h3>
                         <p class="description">
                             NEXUS provides data-driven solutions to prevent and control transmission diseases in
@@ -338,7 +349,8 @@
                         </p>
                     </div>
                     <div class="product-block__list">
-                        <div class="product-list-item">
+                        <div class="product-list-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">
                             <div class="product-item-content">
                                 <h4 class="title">Algorithmic surveillance</h4>
                                 <p class="description">Providing robust and unbiased situational awareness</p>
@@ -386,7 +398,8 @@
                             </div>
                         </div>
 
-                        <div class="product-list-item">
+                        <div class="product-list-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">
                             <div class="product-item-content">
                                 <h4 class="title">Transmission reconstruction</h4>
                                 <p class="description">Uncovering hidden clusters of transmission</p>
@@ -434,7 +447,8 @@
                             </div>
                         </div>
 
-                        <div class="product-list-item">
+                        <div class="product-list-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">
                             <div class="product-item-content">
                                 <h4 class="title">Outbreak prediction</h4>
                                 <p class="description">Guiding interventions to halt outbreaks in their tracks</p>
@@ -482,7 +496,8 @@
                             </div>
                         </div>
 
-                        <div class="product-list-item">
+                        <div class="product-list-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">
                             <div class="product-item-content">
                                 <h4 class="title">Data integration</h4>
                                 <p class="description">Guiding interventions to halt outbreaks in their tracks</p>
@@ -530,7 +545,8 @@
                             </div>
                         </div>
 
-                        <div class="product-list-item">
+                        <div class="product-list-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                            data-aos-duration="1000">
                             <div class="product-item-content">
                                 <h4 class="title">Standardised report</h4>
                                 <p class="description">Summarising and communicating results to key decision makers</p>
@@ -589,7 +605,8 @@
             <!-- START QUOTE BLOCK -->
             <div class="quote-block__wrapper">
                 <div class="container">
-                    <div class="quote-block__content">
+                    <div class="quote-block__content" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
                         <div class="quote-block__video">
                             <div class="video-item">
                             </div>
@@ -637,12 +654,12 @@
                 </div>
             </div>
             <!-- END QUOTE BLOCK -->
-            <div class="story-header">
+            <div class="story-header" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                 <h2 class="story-title">Our Story</h2>
                 <h3 class="story-subtitle">Leveraging data to guide infection control</h3>
             </div>
 
-            <div class="ceo-podcast">
+            <div class="ceo-podcast" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                 <p class="podcast-txt">Listen to our CEO - Ashleigh Myall, discuss the technology on the Lancet’s
                     podcast</p>
                 <a href="" class="podcast-link"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -653,13 +670,14 @@
                     </svg></a>
             </div>
 
-            <p class="story-summary">NEX.Q was founded in 2022 to combat one of the biggest disease threats, AMR,
+            <p class="story-summary" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">NEX.Q was
+                founded in 2022 to combat one of the biggest disease threats, AMR,
                 through
                 prevention in hosptial contexts. Utilsiing cutting edge scentific research, NEX.Q is deploying
                 data-driven solutions
                 to stop hospital transmission of disease, focusing on dangerous superbugs.</p>
 
-            <div class="ceo-card">
+            <div class="ceo-card" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                 <div class="ceo-img"><img src="./images/member-img.png" alt=""></div>
                 <div class="ceo-info">
                     <div class="ceo-name">Ashleigh Myall</div>
@@ -694,8 +712,9 @@
                     </ul>
                 </div>
             </div>
-            <h4 class="members-heading">Meet our team</h4>
-            <div class="team-members">
+            <h4 class="members-heading" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">Meet
+                our team</h4>
+            <div class="team-members" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                 <div class="member">
                     <div class="member-img"><img src="./images/member-img.png" alt=""></div>
                     <span class="member-name">Olivia Rhye</span>
@@ -774,7 +793,8 @@
         <div class="news-block__wrapper">
             <div class="container">
                 <div class="news-block__content">
-                    <div class="news-block__header">
+                    <div class="news-block__header" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
                         <h3 class="title">News</h3>
                         <p class="description">
                             Interviews, tips, guides, industry best practices, and news.
@@ -782,7 +802,8 @@
                     </div>
                 </div>
 
-                <a href="#" class="news-block__main-news">
+                <a href="#" class="news-block__main-news" data-aos="fade-up" data-aos-easing="ease-in-out"
+                    data-aos-duration="1000">
                     <div class="main-image__wrapper">
                         <img src="./images/news-1.png" alt="" />
                     </div>
@@ -808,7 +829,8 @@
                 </a>
 
                 <div class="news-block__list">
-                    <a href="#" class="news-item">
+                    <a href="#" class="news-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
                         <div class="news-item__image">
                             <img src="./images/news-2.png" />
                         </div>
@@ -833,7 +855,8 @@
                         </div>
 
                     </a>
-                    <a href="#" class="news-item">
+                    <a href="#" class="news-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
                         <div class="news-item__image">
                             <img src="./images/news-3.png" />
                         </div>
@@ -859,7 +882,8 @@
                         </div>
 
                     </a>
-                    <a href="#" class="news-item">
+                    <a href="#" class="news-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
                         <div class="news-item__image">
                             <img src="./images/news-4.png" />
                         </div>
@@ -884,7 +908,8 @@
                         </div>
 
                     </a>
-                    <a href="#" class="news-item">
+                    <a href="#" class="news-item" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
                         <div class="news-item__image">
                             <img src="./images/news-5.png" />
                         </div>
@@ -917,7 +942,8 @@
         <!-- START CONTACT BLOCK -->
         <div class=" contact-block__wrapper">
             <div class="container">
-                <div class="contact-block__content">
+                <div class="contact-block__content" data-aos="fade-up" data-aos-easing="ease-in-out"
+                    data-aos-duration="1000">
                     <div class="left-content">
                         <img src="./images/logo-header.png" />
                         <span class="label">Preventing hospital-acquired infections with AI</span>
@@ -935,6 +961,9 @@
         <!-- END CONTACT BLOCK -->
     </div>
     <?php include "templates/footer.php"; ?>
+    <script>
+    AOS.init();
+    </script>
 </body>
 
 </html>

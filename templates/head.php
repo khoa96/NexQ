@@ -10,6 +10,7 @@
     <link data-n-head="ssr" rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <!-- STYLESHEET -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="css/slick.min.css">
