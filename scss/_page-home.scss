@@ -1292,3 +1292,282 @@
     }
   }
 }
+
+
+.story-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 60px 0px 120px 0px;
+
+  @include mq(max_md) {
+    padding: 32px 0px 40px 0px;
+  }
+  .story-header {
+    margin-top: 138px;
+
+    @include mq(max_md) {
+      margin-top: 60px;
+    }
+    .story-title {
+      margin-bottom: 12px;
+      font-family: "IBM Plex Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 24px;
+      /* identical to box height, or 100% */
+
+      text-align: center;
+
+      /* Primary */
+
+      color: #2c5b90;
+    }
+    .story-subtitle {
+      margin-bottom: 38px;
+      font-family: "IBM Plex Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      /* identical to box height, or 122% */
+
+      text-align: center;
+      letter-spacing: -0.02em;
+
+      color: #1b1b1b;
+    }
+    @include mq(max_md) {
+      .story-title {
+        font-size: 16px;
+      }
+      .story-subtitle {
+        font-size: 24px;
+        line-height: 130%;
+      }
+    }
+  }
+  .ceo-podcast {
+    margin-bottom: 38px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    background: #f9fafb;
+    border-radius: 16px;
+
+    .podcast-txt {
+      margin-right: 16px;
+      margin-bottom: 0px;
+      max-width: 331px;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #667085;
+    }
+
+    .podcast-link {
+      cursor: pointer;
+    }
+  }
+
+  .story-summary {
+    margin-bottom: 40px;
+    max-width: 702px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Gray/500 */
+
+    color: #667085;
+    @include mq(max_md) {
+      margin-bottom: 25px;
+    }
+  }
+
+  .ceo-card {
+    margin-bottom: 74px;
+    padding: 24px 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #eaecf0;
+    border-radius: 16px;
+
+    .ceo-img {
+      margin-right: 22px;
+      min-width: 228.5px;
+      max-width: 228.5px;
+      min-height: 228.5px;
+      max-height: 228.5px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .ceo-info {
+      max-width: 313.5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .ceo-name {
+        margin-bottom: 4px;
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        /* identical to box height, or 100% */
+
+        text-align: center;
+
+        /* Primary */
+
+        color: #2c5b90;
+      }
+      .ceo-title {
+        margin-bottom: 20px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        /* identical to box height, or 156% */
+
+        /* secondary */
+
+        color: #6fb2ff;
+      }
+      .job-position {
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        text-align: center;
+
+        color: #667085;
+      }
+
+      .media {
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        .social-media {
+          margin-right: 20px;
+        }
+        .social-media:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+    @include mq(max_md) {
+      margin-bottom: 38.5px;
+      padding: 24px 30px;
+      flex-direction: column;
+      .ceo-img {
+        margin-bottom: 32px;
+        margin-right: 0px;
+      }
+      .ceo-info {
+        max-width: 291.5px;
+      }
+    }
+  }
+  .members-heading {
+    margin-bottom: 52px;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 44px;
+    /* identical to box height, or 183% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #323232;
+    @include mq(max_md) {
+      margin-bottom: 38px;
+      font-size: 18px;
+    }
+  }
+
+  .team-members {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .member {
+      margin-right: 30px;
+      min-width: 162px;
+      max-width: 162px;
+      min-height: 152px;
+      max-height: 152px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .member-img {
+        margin-bottom: 20px;
+        min-width: 80px;
+        max-width: 80px;
+        min-height: 80px;
+        max-height: 80px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .member-name {
+        max-width: 100%;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        /* identical to box height, or 156% */
+
+        text-align: center;
+
+        color: #101828;
+      }
+      .member-title {
+        max-width: 100%;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+
+        /* Primary */
+
+        color: #2c5b90;
+      }
+    }
+    .member:last-child {
+      margin-right: 0px;
+    }
+    @include mq(max_md) {
+      max-width: 100%;
+      overflow: auto;
+      .member {
+        margin-right: 12px;
+      }
+    }
+  }
+}

@@ -1285,4 +1285,263 @@ button,
   }
 }
 
+.story-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 60px 0px 120px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .story-section {
+    padding: 32px 0px 40px 0px;
+  }
+}
+.story-section .story-header {
+  margin-top: 138px;
+}
+@media only screen and (max-width: 991px) {
+  .story-section .story-header {
+    margin-top: 60px;
+  }
+}
+.story-section .story-header .story-title {
+  margin-bottom: 12px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  /* Primary */
+  color: #2c5b90;
+}
+.story-section .story-header .story-subtitle {
+  margin-bottom: 38px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #1b1b1b;
+}
+@media only screen and (max-width: 991px) {
+  .story-section .story-header .story-title {
+    font-size: 16px;
+  }
+  .story-section .story-header .story-subtitle {
+    font-size: 24px;
+    line-height: 130%;
+  }
+}
+.story-section .ceo-podcast {
+  margin-bottom: 38px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  background: #f9fafb;
+  border-radius: 16px;
+}
+.story-section .ceo-podcast .podcast-txt {
+  margin-right: 16px;
+  margin-bottom: 0px;
+  max-width: 331px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #667085;
+}
+.story-section .ceo-podcast .podcast-link {
+  cursor: pointer;
+}
+.story-section .story-summary {
+  margin-bottom: 40px;
+  max-width: 702px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  text-align: center;
+  /* Gray/500 */
+  color: #667085;
+}
+@media only screen and (max-width: 991px) {
+  .story-section .story-summary {
+    margin-bottom: 25px;
+  }
+}
+.story-section .ceo-card {
+  margin-bottom: 74px;
+  padding: 24px 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+}
+.story-section .ceo-card .ceo-img {
+  margin-right: 22px;
+  min-width: 228.5px;
+  max-width: 228.5px;
+  min-height: 228.5px;
+  max-height: 228.5px;
+}
+.story-section .ceo-card .ceo-img img {
+  width: 100%;
+  height: 100%;
+}
+.story-section .ceo-card .ceo-info {
+  max-width: 313.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.story-section .ceo-card .ceo-info .ceo-name {
+  margin-bottom: 4px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  /* Primary */
+  color: #2c5b90;
+}
+.story-section .ceo-card .ceo-info .ceo-title {
+  margin-bottom: 20px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  /* secondary */
+  color: #6fb2ff;
+}
+.story-section .ceo-card .ceo-info .job-position {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #667085;
+}
+.story-section .ceo-card .ceo-info .media {
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.story-section .ceo-card .ceo-info .media .social-media {
+  margin-right: 20px;
+}
+.story-section .ceo-card .ceo-info .media .social-media:last-child {
+  margin-right: 0px;
+}
+@media only screen and (max-width: 991px) {
+  .story-section .ceo-card {
+    margin-bottom: 38.5px;
+    padding: 24px 30px;
+    flex-direction: column;
+  }
+  .story-section .ceo-card .ceo-img {
+    margin-bottom: 32px;
+    margin-right: 0px;
+  }
+  .story-section .ceo-card .ceo-info {
+    max-width: 291.5px;
+  }
+}
+.story-section .members-heading {
+  margin-bottom: 52px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 44px;
+  /* identical to box height, or 183% */
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323232;
+}
+@media only screen and (max-width: 991px) {
+  .story-section .members-heading {
+    margin-bottom: 38px;
+    font-size: 18px;
+  }
+}
+.story-section .team-members {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.story-section .team-members .member {
+  margin-right: 30px;
+  min-width: 162px;
+  max-width: 162px;
+  min-height: 152px;
+  max-height: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.story-section .team-members .member .member-img {
+  margin-bottom: 20px;
+  min-width: 80px;
+  max-width: 80px;
+  min-height: 80px;
+  max-height: 80px;
+}
+.story-section .team-members .member .member-img img {
+  width: 100%;
+  height: 100%;
+}
+.story-section .team-members .member .member-name {
+  max-width: 100%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #101828;
+}
+.story-section .team-members .member .member-title {
+  max-width: 100%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  /* Primary */
+  color: #2c5b90;
+}
+.story-section .team-members .member:last-child {
+  margin-right: 0px;
+}
+@media only screen and (max-width: 991px) {
+  .story-section .team-members {
+    max-width: 100%;
+    overflow: auto;
+  }
+  .story-section .team-members .member {
+    margin-right: 12px;
+  }
+}
+
 /*# sourceMappingURL=home.css.map */
