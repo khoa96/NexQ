@@ -841,7 +841,7 @@ button,
 }
 @media only screen and (max-width: 991px) {
   .contact-block__content .left-content,
-.contact-block__content .right-content {
+  .contact-block__content .right-content {
     width: 100%;
   }
 }
@@ -1095,6 +1095,7 @@ button,
   height: 100%;
   display: block;
 }
+
 .news__wrapper {
   width: 100%;
 }
@@ -1255,7 +1256,7 @@ button,
 }
 @media only screen and (max-width: 991px) {
   .quote-block__main-content .background .quote-title,
-.quote-block__main-content .content-detail .quote-title {
+  .quote-block__main-content .content-detail .quote-title {
     ont-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -1278,7 +1279,7 @@ button,
 }
 @media only screen and (max-width: 991px) {
   .quote-block__main-content .background .person,
-.quote-block__main-content .content-detail .person {
+  .quote-block__main-content .content-detail .person {
     font-weight: 600;
     font-size: 16px;
     line-height: 100%;
@@ -1396,6 +1397,7 @@ button,
 .story-section .ceo-card .ceo-img img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
 }
 .story-section .ceo-card .ceo-info {
   max-width: 313.5px;
@@ -1507,6 +1509,7 @@ button,
 .story-section .team-members .member .member-img img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
 }
 .story-section .team-members .member .member-name {
   max-width: 100%;
